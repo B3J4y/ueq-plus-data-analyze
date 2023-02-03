@@ -1,3 +1,7 @@
+"""
+The copied algorithms to analyze UEQ+ Data
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -19,7 +23,7 @@ def read_in_ueq_observed_data(file_name):
 
 # ------- DATA_ITEMS -------
 
-def get_oberserved_item_ratings(filtered_df, ueq):
+def get_observed_item_ratings(filtered_df, ueq):
     """
     Returns the observed item ratings for each item.
     """
