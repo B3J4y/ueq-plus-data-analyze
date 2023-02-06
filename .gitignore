@@ -130,3 +130,6 @@ dmypy.json
 
 # PyCharm
 .idea
+
+# by using pip-compile the generated requirements.txt is system dependent
+requirements.txt

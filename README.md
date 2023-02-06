@@ -1,5 +1,7 @@
 # UEQ Plus Data Analyzer
 
+[![PyPI](https://img.shields.io/pypi/v/ueqplusanalyze.svg)](https://pypi.org/project/ueqplusanalyze/)
+
 This repository is data analyzer for UEQ+ data in Python. The calculations are copied from the 
 data analysis tool of the [oficial UEQ+ website](https://ueqplus.ueq-research.org/).
 
