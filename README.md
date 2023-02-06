@@ -7,11 +7,14 @@ data analysis tool of the [oficial UEQ+ website](https://ueqplus.ueq-research.or
 
 ```
 ueq-plus-data-analyze
+| .github               # used for github files
+  | workflows           # used for github actions
+| data                  # example data which shows the needed data structure
 | src
   | ueq-plus-anazye
 | .gitignore
-| LICENSE
+| definitions.py        # defines global variables
+| LICENSE               
 | README.md
 | requirements.in       # every new package should be written in here
-| requirements.txt
 ```

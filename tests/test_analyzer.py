@@ -1,11 +1,12 @@
 """ Test file for the UEQ+ Analyzer file """
-
+import os.path
 import unittest
 
 import pandas
 from pandas import testing
 from io import StringIO
 
+from definitions import ROOT_DIR
 from src.ueqplusanalyze.analyzer import get_observed_item_ratings, read_in_ueq_observed_data, \
     scale_means_per_participant, get_observed_importance_ratings, relative_importance_ratings, \
     mean_and_confidence_intervall_per_scale, mean_importance_ratings, scale_consistency, \
@@ -24,7 +25,8 @@ class AnalyzerTest(unittest.TestCase):
             'dependability': ["UP06_01", "UP06_02", "UP06_03", "UP06_04"],
             'importance_of_scales': ["UP01_05", "UP02_05", "UP04_05", "UP05_05", "UP06_05"]
         }
-        self.ueq_observed_ratings = read_in_ueq_observed_data('../data/ueq_export.csv')
+        path_to_example_data = os.path.join(ROOT_DIR, 'data/ueq_export.csv')
+        self.ueq_observed_ratings = read_in_ueq_observed_data(path_to_example_data)
 
     def test_observed_item_ratings(self):
         """ tests if observed items could be summarized """
