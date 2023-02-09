@@ -1,15 +1,16 @@
 cff-version: 1.2.0
+title: UEQ+ Data Analyzer
+version: 0.0.4
 message: "If you use this software, please cite it as below."
 type: software
+license: MIT
 authors:
   - family-names: Bernoth
     given-names: Jan
     email: jan.bernoth@uni-potsdam.de
     affiliation: University of Potsdam
     orcid: https://orcid.org/0000-0002-4127-0053
-    role: main-author
   - given-names: Lewin
     family-names: Kästner
     email: lewin.kaestner@uni-potsdam.de
     affiliation: University of Potsdam
-    role: engineer
